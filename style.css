@@ -1,0 +1,416 @@
+/*
+Theme Name: Mail DMI Blog
+Author: Jacob Medley // Medley In Design
+Author URI: http://jacobmedley.com
+Description: Mail DMI Blog Wordpress Theme
+Version: 0.9
+License: © DMI 2012. All rights reserved.
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+
+.content-wrapper {
+	background: url(/images/swoosh.png) left center no-repeat rgba(255,255,255, .6);
+	padding: 30px 30px 22px 30px;
+	position: relative;
+    
+}
+
+.call-now:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.sidebar h3 {
+	border-bottom: 2px solid rgba(0,0,0, .3);
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+ul.sidebar {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sidebar ul {
+	list-style: none;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+.sidebar ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    border-bottom: 1px solid rgba(0,0,0, .1);
+}
+.sidebar ul li a {
+	display: block;
+	padding: 10px 0 10px 0;
+    line-height: 120%;
+}
+
+a:hover {
+	color: #01577a;
+	text-decoration: none;
+}
+.post-content .image-feature {
+	border: 4px solid rgba(255,255,255, .6);
+	margin-bottom:  20px;
+}
+.post-content a .image-feature:hover {
+	border: 4px solid rgba(255,255,255, 1.0);
+}
+
+.pagination > li > a, .pagination > li > span {
+	background-color: transparent;
+}
+.pagination > li > span.current {
+	background-color: rgba(255,255,255, .4);
+	font-weight: bold;
+	color: rgba(0,0,0, .5);
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+
+.searchform  {
+    margin-bottom: 15px;
+
+}
+
+
+.searchform .form-control {
+    display: block;
+    width: 100%;
+    height: 32px;
+    padding: 5px 10px;
+    margin-top: 2px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgba(0,0,0,0.3, );
+    background: rgba(255,255,255, .3);
+    border: 1px solid rgba(255,255,255,.40);
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.searchform .form-control:hover {
+
+    background: rgba(255,255,255, .8);
+}
+
+.searchform .btn {
+    padding: 5px 0px 5px 0px;
+    margin-top: 2px;
+    font-size: 14px;
+    border-radius: 0px;
+    background: #0070a1;
+    border: solid 1px rgba(255,255,255,.60);
+    text-shadow: 1px 0px 3px rgba(0, 0, 0, .8);
+    width: 32px;
+    color: #ffffff;
+}
+.searchform .btn:hover {
+    background: #00bbf1;
+}
+
+.h1, h1 {
+    font-size: 24px;
+    margin: 0 0 4px 0;
+}
+.h2, h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.h3, h3 {
+
+    font-size: 18px;
+     margin: 0 0 10px;
+}
+.h4, h4 {
+    font-size: 16px;
+     margin: 0 0 8px;
+}
+.h5, h5 {
+    font-size: 14px;
+     margin: 0 0 8px;
+}
+.h6, h6 {
+    font-size: 12px;
+     margin: 0 0 6px;
+}
+p {
+    margin: 0 0 15px;
+}
+.key-word {
+    color: rgba(234,101,34, 1.0);
+}
+
+.promos {
+    list-style: none;
+    display: block;
+}
+
+.widget.promos img {
+
+    margin-top: -8px;
+    margin-bottom: 20px;
+}
+
+.promos .post-title {
+    visibility: hidden;
+    height: 1px;
+    overflow: hidden;
+    font-size: 1px;
+    display: none;
+}
+
+
+.post-meta {
+font-size: 12px;
+color: #999;
+text-transform: capitalize;
+letter-spacing: 1px;
+margin-bottom: 15px;
+}
+
+.post-meta .date-sep {
+margin: 0 10px;
+}
+
+/*  comments */
+
+
+.c-wrapper h3#comments {
+    border-bottom: dotted 1px #999999;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666666;
+}
+
+ol.commentlist {
+    list-style: none;
+    margin: 0 0 1em;
+    padding: 0;
+    text-indent: 0;
+}
+ol.commentlist li {
+}
+ol.commentlist li.alt {
+}
+ol.commentlist li.bypostauthor {
+}
+ol.commentlist li.byuser {
+}
+ol.commentlist li.comment-author-admin {
+}
+ol.commentlist li.comment {
+    border-bottom: 1px solid #666;
+    padding: 1em;
+}
+ol.commentlist li.comment div.comment-author {
+}
+ol.commentlist li.comment div.vcard {
+   
+}
+ol.commentlist li.comment div.vcard cite.fn {
+    font-style: normal;
+}
+ol.commentlist li.comment div.vcard cite.fn a.url {
+}
+ol.commentlist li.comment div.vcard img.avatar {
+    border: 5px solid #ccc;
+    float: right;
+    margin: 0 0 1em 1em;
+}
+ol.commentlist li.comment div.vcard img.avatar-32 {
+}
+ol.commentlist li.comment div.vcard img.photo {
+}
+ol.commentlist li.comment div.vcard span.says {
+}
+ol.commentlist li.comment div.commentmetadata {
+}
+ol.commentlist li.comment div.comment-meta {
+    font-size: 9px;
+}
+ol.commentlist li.comment div.comment-meta a {
+    color: #ccc;
+}
+ol.commentlist li.comment p {
+    font-size: 11px;
+    margin: 0 0 1em;
+}
+ol.commentlist li.comment ul {
+    font-size: 11px;
+    list-style: square;
+    margin: 0 0 1em 2em;
+}
+ol.commentlist li.comment div.reply {
+    font-size: 11px;
+}
+ol.commentlist li.comment div.reply a {
+    font-weight: bold;
+}
+ol.commentlist li.comment ul.children {
+    list-style: none;
+    margin: 1em 0 0;
+    text-indent: 0;
+}
+ol.commentlist li.comment ul.children li {
+}
+ol.commentlist li.comment ul.children li.alt {
+}
+ol.commentlist li.comment ul.children li.bypostauthor {
+}
+ol.commentlist li.comment ul.children li.byuser {
+}
+ol.commentlist li.comment ul.children li.comment {
+}
+ol.commentlist li.comment ul.children li.comment-author-admin {
+}
+ol.commentlist li.comment ul.children li.depth-2 {
+    border-left: 5px solid #555;
+    margin: 0 0 .25em .25em;
+}
+ol.commentlist li.comment ul.children li.depth-3 {
+    border-left: 5px solid #999;
+    margin: 0 0 .25em .25em;
+}
+ol.commentlist li.comment ul.children li.depth-4 {
+    border-left: 5px solid #bbb;
+    margin: 0 0 .25em .25em;
+}
+ol.commentlist li.comment ul.children li.depth-5 {
+}
+ol.commentlist li.comment ul.children li.odd {
+}
+ol.commentlist li.even {
+    background: #fff;
+}
+ol.commentlist li.odd {
+    background: #f6f6f6;
+}
+ol.commentlist li.parent {
+    border-left: 5px solid #111;
+}
+ol.commentlist li.thread-alt {
+}
+ol.commentlist li.thread-even {
+}
+ol.commentlist li.thread-odd {
+}
+
+
+input.email {
+    display: block;
+width: 100%;
+height: 32px;
+padding: 5px 10px;
+margin-top: 2px;
+font-size: 14px;
+line-height: 1.42857143;
+color: rgba(0,0,0,0.3, );
+background: rgba(255,255,255, .3);
+border: 1px solid rgba(255,255,255,.40);
+border-radius: 0px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+label.grunion-field-label {
+    font-weight: normal !important;
+}
+
+
+.widget.banner img {
+    display: block;
+max-width: 100%;
+height: auto;
+}

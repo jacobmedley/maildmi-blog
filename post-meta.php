@@ -1,0 +1,1 @@
+<div class="post-meta"><span>by <?php the_author(); ?></span><span class="date-sep">/</span>on <?php the_time('F j, Y') ?></div>
